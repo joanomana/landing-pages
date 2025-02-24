@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "WorkSans-Bold";
+  src: url("../src/storage/font/WorkSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "WorkSans-Light";
+  src: url("../src/storage/font/WorkSans-Light.ttf");
+}
+@font-face{    
+  font-family: "Poppins-Regular";
+  src: url(../src/storage/font/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(../src/storage/font/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url(../src/storage/font/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url(../src/storage/font/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: url(../src/storage/font/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(../src/storage/font/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(../src/storage/font/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url(../src/storage/font/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url(../src/storage/font/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url(../src/storage/font/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-ExtraLight";
+  src: url(../src/storage/font/Montserrat-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Thin";
+  src: url(../src/storage/font/Montserrat-Thin.ttf);
+}
+
