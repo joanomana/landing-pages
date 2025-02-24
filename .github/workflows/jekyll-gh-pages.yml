@@ -39,12 +39,17 @@ jobs:
       - name: Build project
         run: npm run build
 
-      # ✅ Crear la carpeta destino antes de copiar las vistas
+      # ✅ Crear la carpeta views en dist
       - name: Create views directory in dist
         run: mkdir -p ./dist/src/views
 
+      # ✅ Copiar las vistas
       - name: Copy views to dist
         run: cp -r ./src/views/* ./dist/src/views/
+
+      # ✅ Copiar el index.css al dist
+      - name: Copy index.css to dist
+        run: cp ./src/index.css ./dist/src/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
